@@ -11,11 +11,7 @@
 
 
 def check_buddy(proposal: str):
-    for word in proposal.split(sep=" "):
-        if word == "зайка":
-            return True
-
-    return False
+    return "зайка" in proposal.split(sep=" ")
 
 
 def get_count_of_proposal():
